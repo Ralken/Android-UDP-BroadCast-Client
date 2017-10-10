@@ -11,10 +11,10 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.motech.miyalan.client.udp.LANConnector;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.ralken.android.client.udp.LANConnector;
 
 public class FullscreenActivity extends Activity {
 

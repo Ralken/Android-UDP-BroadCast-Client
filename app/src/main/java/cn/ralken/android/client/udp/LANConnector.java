@@ -1,7 +1,6 @@
 package cn.ralken.android.client.udp;
 
 import com.google.gson.Gson;
-import com.motech.miyalan.client.FullscreenActivity;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -16,6 +15,8 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketException;
+
+import cn.ralken.android.client.FullscreenActivity;
 
 public class LANConnector extends Thread {
 	private DatagramSocket udpSocket;
